@@ -1,0 +1,19 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="15" y="6" width="4" height="4" fill="#F6476E"/>
+<rect x="23" y="6" width="4" height="4" fill="#F6476E"/>
+<rect x="15" y="6" width="4" height="4" fill="#F6476E"/>
+<rect x="23" y="6" width="4" height="4" fill="#F6476E"/>
+<rect x="15" y="17" width="4" height="4" fill="#F6476E"/>
+<rect x="23" y="17" width="4" height="4" fill="#F6476E"/>
+<rect x="15" y="28" width="4" height="4" fill="#F6476E"/>
+<rect x="23" y="28" width="4" height="4" fill="#F6476E"/>
+<rect x="5" y="17" width="4" height="4" fill="#F6476E"/>
+<rect x="5" y="17" width="4" height="4" fill="#F6476E"/>
+<rect x="5" y="28" width="4" height="4" fill="#F6476E"/>
+<rect x="5" y="39" width="4" height="4" fill="#F6476E"/>
+<rect x="34" y="36" width="4" height="4" fill="#F6476E"/>
+<rect x="39" y="25" width="4" height="4" fill="#F6476E"/>
+<rect x="11.5" y="1.5" width="19" height="45" stroke="#303E77" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9 15H3V45H9V48H3H0V45V15V12H3H9V15Z" fill="#F6476E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33 24H45V45H33V48H45H48V45V24V21H45H33V24Z" fill="#F6476E"/>
+</svg>
