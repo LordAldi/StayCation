@@ -5,6 +5,7 @@ import IconCities from "assets/images/icons/ic_cities.svg";
 import IconTravellers from "assets/images/icons/ic_travellers.svg";
 import IconTreasure from "assets/images/icons/ic_treasure.svg";
 import Button from "components/Button";
+import formatNumber from "utils/formatNumber";
 
 export default function Hero(props) {
   const showMostPicked = () => {
@@ -13,7 +14,6 @@ export default function Hero(props) {
       behavior: "smooth",
     });
   };
-  console.log(props.data);
   return (
     <section className="container pt-4">
       <div className="row align-items-center">
@@ -24,7 +24,7 @@ export default function Hero(props) {
             Start dream <span className="text-primary">Vocation</span>
           </h1>
           <p
-            className="mb-5 font-weight-light text-gray-500 w-75"
+            className="mb-4 font-weight-light text-gray-500 w-75"
             style={{ lineHeight: "27px" }}
           >
             We provide what you need to enjoy your vocation with family, Time to
@@ -38,7 +38,7 @@ export default function Hero(props) {
           >
             Show Me Now
           </Button>
-          <div className="row mt-5">
+          <div className="row" style={{ marginTop: 80 }}>
             <div className="col-auto">
               <img
                 width="36"
@@ -47,7 +47,7 @@ export default function Hero(props) {
                 alt={`${props.data.travelers} Travelers`}
               />
               <h6 className="mt-3">
-                {props.data.travelers}{" "}
+                {formatNumber(props.data.travelers)}{" "}
                 <span className="text-gray-500 font-weight-light">
                   Travelers
                 </span>
@@ -61,7 +61,7 @@ export default function Hero(props) {
                 alt={`${props.data.treasures} Treasure`}
               />
               <h6 className="mt-3">
-                {props.data.treasures}{" "}
+                {formatNumber(props.data.treasures)}{" "}
                 <span className="text-gray-500 font-weight-light">
                   Treasure
                 </span>
@@ -75,7 +75,7 @@ export default function Hero(props) {
                 alt={`${props.data.cities} Cities`}
               />
               <h6 className="mt-3">
-                {props.data.cities}{" "}
+                {formatNumber(props.data.cities)}{" "}
                 <span className="text-gray-500 font-weight-light">Cities</span>
               </h6>
             </div>
@@ -88,13 +88,22 @@ export default function Hero(props) {
               src={ImageHero}
               alt="room with couches"
               className="img-fluid  position-absolute"
-              style={{ margi: "-30px 0 0 -30px", zIndex: 1 }}
+              style={{
+                margin: "-30px 0 0 -30px",
+                zIndex: 1,
+                width: 520,
+                height: 410,
+              }}
             />
             <img
               src={ImageHeroFrame}
               alt="room with couchesfframe"
               className="img-fluid  position-absolute"
-              style={{ margin: "65px 0px 0px 30px", zIndex: 0 }}
+              style={{
+                zIndex: 0,
+                width: 520,
+                height: 410,
+              }}
             />
           </div>
         </div>
